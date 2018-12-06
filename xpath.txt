@@ -1,0 +1,11 @@
+from field -(//div[@class="fl_shAutosgBox col-md-5 col-sm-5 col-xs-12 autoSuggestBox marginB10"])[1]
+to field - (//div[@class="fl_shAutosgBox col-md-5 col-sm-5 col-xs-12 autoSuggestBox marginB10"])[2]
+date 1 - (//div[@class="col-md-6 col-sm-6 col-xs-6"])[1]
+date 2 - (//div[@class="col-md-6 col-sm-6 col-xs-6"])[2]
+travellers - (//div[@class="col-md-6 col-sm-6 col-xs-12"])[1]
+class - (//div[@class="col-md-6 col-sm-6 col-xs-12"])[2]
+field checkbox 1 - (//div[@class="fl width100"])[2]
+only tick box - (//input[@class="fl bigCheckBox"])[1]
+checkbox 2 -(//div[@class="width100 fl marginT15"])
+tick box 2 - (//input[@class="fl bigCheckBox"])[2]
+Get Set Go - (//button[@class="width100 button orange xlarge"])
